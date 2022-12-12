@@ -39,14 +39,14 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+  <<!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Logis</h1>
+        <h1>SS Institution</h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -54,9 +54,95 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
+          <li  class="dropdown"><a href="about.html">About</a>
+            <ul>
+              <li><a href="#">OUR MISSION</a></li>             
+              <li><a href="#">OUR VISION</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="services.html">B.Tech Projects <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#">Mini Projects <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li class="dropdown"><a href="#">ECE <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="sample-inner-page.html">Embedded</a></li>             
+                      <li><a href="service-details.html">DSP/DIP</a></li>
+                    </ul>
+                  </li>             
+                  <li class="dropdown"><a href="#">EEE <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="#">MATLAB/SIMULINK</a></li>             
+                      <li><a href="#">Embedded</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#">MECH <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="#">Hardware</a></li>          
+                    </ul>
+                  </li>
+                </ul>
+              </li>             
+              <li class="dropdown"><a href="#">Major Projects <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li class="dropdown"><a href="#">ECE <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="#">Embedded</a></li>             
+                      <li><a href="#">DSP/DIP</a></li>
+                    </ul>
+                  </li>             
+                  <li class="dropdown"><a href="#">EEE <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="#">MATLAB/SIMULINK</a></li>             
+                      <li><a href="#">Embedded</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#">MECH <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="#">Hardware</a></li>          
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="services.html">M.Tech Projects <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#">ECE <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">DSP</a></li>             
+                  <li><a href="#">DIP</a></li>
+                </ul>
+              </li>             
+              <li class="dropdown"><a href="#">Electrical <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">MATLAB/SIMULATOR</a></li>             
+                  <li><a href="#">Embedded</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#">Mech <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li class="dropdown"><a href="#">Hardware</a></li>                 
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li  class="dropdown"><a href="about.html">Courses</a>
+            <ul>
+              <li><a href="#">MATLAB</a></li>             
+              <li><a href="#">SIMULINK</a></li>
+              <li><a href="#">Python</a></li>
+            </ul>
+          </li>
+          <li  class="dropdown"><a href="about.html">PHD Guidence</a>
+            <ul>
+              <li><a href="#" class="dropdown">Electrical</a>
+                <li><a href="#">MATLAB/SIMULINK</a></li>
+              </li>
+            </ul>
+          </li>
+          <li><a href="pricing.html">Webmail</a></li>
+          <!--
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -67,15 +153,42 @@
                   <li><a href="#">Deep Drop Down 3</a></li>
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
+                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                      <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                          <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                            <ul>
+                              <li><a href="#">Deep Drop Down 1</a></li>
+                              <li><a href="#">Deep Drop Down 2</a></li>
+                              <li><a href="#">Deep Drop Down 3</a></li>
+                              <li><a href="#">Deep Drop Down 4</a></li>
+                              <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Deep Drop Down 1</a></li>
+                          <li><a href="#">Deep Drop Down 2</a></li>
+                          <li><a href="#">Deep Drop Down 3</a></li>
+                          <li><a href="#">Deep Drop Down 4</a></li>
+                          <li><a href="#">Deep Drop Down 5</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li><a href="#">Drop Down 2</a></li>
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="contact.html">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
+          <li><a class="get-a-quote" href="get-a-quote.html">ENQUIRY</a></li>
         </ul>
       </nav><!-- .navbar -->
 

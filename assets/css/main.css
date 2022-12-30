@@ -314,7 +314,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 80px;
   margin-right: 6px;
 }
 
@@ -346,19 +346,19 @@ section {
     position: relative;
   }
 
-  .navbar a,
-  .navbar a:focus {
+  .navbar a, .navbar a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 20px;
     font-family: var(--font-primary);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
     transition: 0.3s;
-  }
+    /* text-transform: uppercase; */
+}
 
   .navbar a i,
   .navbar a:focus i {
@@ -1852,10 +1852,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  font-size: 14px;
-  background-color: var(--color-secondary);
-  padding: 50px 0;
-  color: white;
+    font-size: 14px;
+    background-color: var(--color-secondary);
+    padding: 50px 0px 10px 0px;
+    color: white;
 }
 
 .footer .footer-info .logo {
@@ -1864,8 +1864,8 @@ section {
 }
 
 .footer .footer-info .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+    max-height: 80px;
+    margin-right: 6px;
 }
 
 .footer .footer-info .logo span {
@@ -1961,4 +1961,12 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+.course-title h3 a {
+    color: black;
+}
+.best-course-pic-text .best-course-text .course-meta span {
+    font-weight: 400;
+    color: #777777;
+    -webkit-font-smoothing: antialiased;
 }
